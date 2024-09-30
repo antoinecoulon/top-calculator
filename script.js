@@ -43,3 +43,11 @@ function clearResult() {
 let clearButton = document.querySelector("#clear");
 clearButton.addEventListener("click", clearResult);
 
+function changeDisplay() {
+    let inputDisplay = document.querySelector("operations");
+    let buttonsValue = document.querySelector(".userInputs").textContent;
+    inputDisplay.textContent = 
+}
+
+let userInput = document.querySelector(".userInputs");
+userInput.addEventListener("click", changeDisplay);
