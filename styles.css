@@ -1,0 +1,51 @@
+.calculator {
+    display: block;
+    height: 400px;
+    width: 200px;
+    border: 1px solid black;
+    margin: 100px auto;
+}
+
+.display {
+    background-color: antiquewhite;
+    height: 100px;
+    width: 90%;
+    margin: 8px auto;
+}
+
+.digits {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 8px;
+    justify-content: center;
+    width: 180px;
+}
+.digits button {
+    padding: 8px;
+    margin: 2px;
+    width: 50px;
+    font-weight: 500;
+    font-size: larger;
+}
+
+.operators {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 8px;
+    justify-content: center;
+    width: 180px;
+}
+.operators button {
+    padding: 8px;
+    margin: 2px;
+    font-weight: 500;
+    font-size: larger;
+}
+
+#clear {
+    display: block;
+    padding: 8px;
+    margin: 2px;
+    font-weight: 500;
+    margin: auto;
+}
