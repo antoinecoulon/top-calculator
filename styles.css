@@ -2,16 +2,19 @@
     display: block;
     height: 420px;
     width: 200px;
+    background-color: rgb(150, 179, 156);
     border: 1px solid black;
     margin: 100px auto;
 }
 
 .display {
-    background-color: antiquewhite;
+    background-color: rgb(44, 44, 44, 50%);
+    border: 1px solid white;
     height: 100px;
     width: 90%;
     margin: 8px auto;
     padding: 4px;
+    color: white;
 }
 .operations {
     text-align: end;
