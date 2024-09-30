@@ -1,6 +1,6 @@
 .calculator {
     display: block;
-    height: 400px;
+    height: 420px;
     width: 200px;
     border: 1px solid black;
     margin: 100px auto;
@@ -11,6 +11,16 @@
     height: 100px;
     width: 90%;
     margin: 8px auto;
+    padding: 4px;
+}
+.operations {
+    text-align: end;
+    font-style: italic;
+}
+.result {
+    text-align: end;
+    font-size: x-large;
+    font-weight: 800;
 }
 
 .digits {
