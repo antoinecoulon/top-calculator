@@ -22,4 +22,16 @@ let firstInputNumber;
 let operator;
 let secondInputNumber; 
 
-console.log(divide(numb1, numb2));
+function operate(operator, n1, n2) {
+    if(operator == "+") {
+        return add(n1, n2);
+    } else if(operator == "-") {
+        return substract(n1, n2);
+    } else if (operator == "*") {
+        return multiply(n1, n2);
+    } else if (operator == "/") {
+        return divide(n1, n2);
+    }
+}
+
+// console.log(divide(numb1, numb2));
