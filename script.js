@@ -34,4 +34,12 @@ function operate(operator, n1, n2) {
     }
 }
 
-// console.log(divide(numb1, numb2));
+// Permet d'utiliser le bouton Clear pour remettre le resultat à son état initial
+function clearResult() {
+    let resultDisplay = document.querySelector(".result");
+    resultDisplay.textContent = "0";
+}
+
+let clearButton = document.querySelector("#clear");
+clearButton.addEventListener("click", clearResult);
+
